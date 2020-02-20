@@ -129,9 +129,28 @@ h1, h2, h3, h4, h5, h6 {
 
 /* about */
 
+.about p {
+ column-count: 3;
+ column-gap: 30px;
+ text-align: justify;
+
+}
+
+.portrait {
+	max-width: 30%;
+    height: auto;
+    border-top: solid 5px rgba(199, 54, 18, 0.794);
+}
 /* news */
 
 /* contact */
+.adress h3 {
+    margin: 0;
+}
+
+.adress p {
+    margin-top: 0;
+}
 
 
 
@@ -198,3 +217,10 @@ h1, h2, h3, h4, h5, h6 {
         opacity: 1;
     }
 }
+
+/* Portfolio */
+.imgsp {
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+}
+
